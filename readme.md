@@ -5,8 +5,9 @@ NetCheck.me è un progetto che mette a disposizione un insieme di strumenti per 
 ## 📋 Roadmap
 
 - [x] Setup iniziale del progetto
-- [ ] Implementazione controllo IP 
-- [ ] Implementazione controllo Headers
+- [x] Implementazione controllo IP 
+- [x] Implementazione controllo SSL 
+- [x] Implementazione controllo PTR
 - [ ] Implementazione controllo Geo
 - [ ] Implementazione controllo DNS
 - [ ] Implementazione controllo ASN
