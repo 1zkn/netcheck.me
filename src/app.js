@@ -1,7 +1,6 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import tls from 'node:tls'
 
 import ipRoutes from './routes/ip.routes.js' 
 import ptrRoutes from './routes/ptr.routes.js'

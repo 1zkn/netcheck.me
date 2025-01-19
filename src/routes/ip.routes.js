@@ -18,7 +18,7 @@ ipRoutes.get('/json', async (req, res) => {
     try {
         const ipInfo = await ipService.getIpInfo(userIP)
         res.json(ipInfo)
-        console.log("jsonme")
+       
     } catch (error) {
         const errorInfo = {
             error: error.message,
